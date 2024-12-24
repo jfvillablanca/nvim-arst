@@ -54,6 +54,9 @@
           statix
           deadnix
           nil
+          nixd
+
+          vimPluginsUpdater
         ];
         formatter = pkgs.alejandra;
         shellHook = ''
